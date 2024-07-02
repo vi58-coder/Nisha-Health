@@ -1,0 +1,19 @@
+.users{
+    @apply bg-[#6B93F6] text-white;
+}
+
+.users__containers{
+    @apply flex justify-center align-middle py-20;
+}
+
+.users__content{
+    @apply flex flex-col items-center justify-around w-[20%] h-1/2;
+}
+
+.duration{
+    @apply text-3xl font-bold uppercase;
+}
+
+.users__text{
+    @apply text-center underline w-[13rem] font-light;
+}

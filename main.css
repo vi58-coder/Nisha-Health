@@ -1,0 +1,10 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "./styles/header.css";
+@import "./styles/hero.css";
+@import "./styles/users.css";
+@import "./styles/solution.css";
+@import "./styles/guide.css";
+@import "./styles/form.css";
+@import "./styles/footer.css";
+@import "tailwindcss/utilities";

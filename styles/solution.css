@@ -1,0 +1,29 @@
+.solutions__container{
+   @apply  mx-auto px-4 py-16; 
+}
+
+.solutions__title{
+    @apply text-4xl font-bold text-center text-blue-500 mb-12;
+}
+.solutions__flex--container{
+    @apply flex items-center flex-col md:flex-row px-[12rem] md:space-x-12;
+}
+
+.right__col{
+    @apply w-full md:w-1/2 mb-8 md:mb-0;
+}
+
+.left__col{
+    @apply w-full md:w-1/2
+}
+
+.left__col-text{
+    @apply text-2xl font-bold text-gray-700 mb-4;
+}
+
+.left__col-p{
+   @apply  text-gray-600 mb-6 w-[60%]; 
+}
+.button__5{
+    @apply inline-block px-6 py-3 text-[#FF007F] font-semibold border border-[#FF007F] rounded-full transition-colors duration-300 ease-in-out hover:bg-[#FF007F] hover:text-white;
+}

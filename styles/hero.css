@@ -1,0 +1,24 @@
+.container{
+    @apply w-full h-[600px] bg-cover bg-center bg-no-repeat;
+    background-image: url('./images/hero.svg');
+}
+
+.hero__section{
+    @apply absolute top-[14rem] left-28;
+}
+
+.hero__content{
+    @apply text-white;
+}
+
+.text{
+    @apply text-7xl font-bold;
+}
+
+.hero__text{
+    @apply text-[1.8rem] max-w-[28rem] mb-4;
+}
+
+.button__xl{
+    @apply inline-block px-6 py-3 text-white font-semibold bg-[#FF007F] rounded-full transition-colors duration-300 ease-in-out hover:bg-pink-600;
+}

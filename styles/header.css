@@ -1,0 +1,27 @@
+
+.navigation{
+    @apply mx-auto px-10 py-4 flex items-center justify-between;
+}
+.nav__list{
+    @apply text-gray-700 hover:text-[#FF007F] text-lg font-medium;
+}
+
+.nav__list-a{
+   @apply  hidden md:flex space-x-4;
+}
+
+.buttons__section{
+   @apply flex space-x-2;
+}
+
+.button__1{
+    @apply  border border-[#FF007F] text-[#FF007F] px-4 py-2 rounded-full hover:bg-[#FF007F] hover:text-white transition-colors duration-300;
+}
+
+.button__2{
+    @apply  bg-[#FF007F] text-white px-4 py-2 rounded-full hover:bg-pink-600 transition-colors duration-300;
+}
+
+.button__3{
+    @apply bg-gradient-to-r from-[#FF007F] to-blue-500 text-white px-4 py-2 rounded-full hover:from-pink-600 hover:to-blue-600 transition-colors duration-300;
+}

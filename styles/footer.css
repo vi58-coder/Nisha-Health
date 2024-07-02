@@ -1,0 +1,35 @@
+.footer__body{
+   @apply bg-[#6B93F6] text-white py-8; 
+}
+
+.container__2{
+  @apply mx-auto px-[4rem] py-12 grid grid-cols-2 md:grid-cols-5 gap-4;  
+}
+
+.footer__head{
+   @apply text-xl font-bold mb-2; 
+}
+
+.footer__p{
+    @apply text-sm mb-4;
+}
+
+.cont__effect{
+    @apply hover:underline;
+}
+
+.footer__icon{
+  @apply flex space-x-3;  
+}
+
+.footer__fill{
+    @apply w-10;
+}
+
+.footer__ul{
+    @apply text-sm space-y-2;
+}
+
+.footer__copy{
+    @apply  mx-auto px-4 mt-8 text-center text-sm;
+}
