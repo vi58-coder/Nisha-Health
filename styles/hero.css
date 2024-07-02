@@ -1,6 +1,6 @@
 .container{
-     @apply w-full h-[600px] bg-cover bg-center bg-no-repeat;
-    background-image: url('images/hero.svg');
+     @apply w-full h-[600px] bg-cover bg-center bg-no-repeat bg-[url('images/hero.svg')];
+     
 }
 
 .hero__section{
