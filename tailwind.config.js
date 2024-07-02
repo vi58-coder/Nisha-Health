@@ -4,10 +4,14 @@ module.exports = {
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
-    accentColor: ({ theme }) => ({
-      ...theme('colors'),
-      auto: 'auto',
-    }),
+    extend: {
+      backgroundImage: {
+        'hero': "url('/images/hero.svg')",
+      },
+    },
+  
+
+
     animation: {
       none: 'none',
       spin: 'spin 1s linear infinite',
@@ -1053,6 +1057,5 @@ module.exports = {
       50: '50',
     },
   },
-  plugins: [],
-}
 
+};

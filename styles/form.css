@@ -15,11 +15,11 @@
 }
 
 .form__main{
-  @apply w-[80%] mr-[6rem]
+  @apply w-[80%] mr-[6rem];
 }
 
 .form__paragraph{
-   @apply mr-40 
+   @apply mr-40 ;
 }
 
 .mail{

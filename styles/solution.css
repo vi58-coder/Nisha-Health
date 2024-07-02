@@ -14,7 +14,7 @@
 }
 
 .left__col{
-    @apply w-full md:w-1/2
+    @apply w-full md:w-1/2;
 }
 
 .left__col-text{

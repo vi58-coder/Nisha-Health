@@ -1,5 +1,5 @@
 .guide{
-    @apply bg-[#F2F6FF]
+    @apply bg-[#F2F6FF];
 }
 
 .top__guide{
@@ -31,6 +31,6 @@
 }
 
 .flex-heading{
-    @apply font-semibold text-2xl text-[#323575]
+    @apply font-semibold text-2xl text-[#323575];
 }
 
