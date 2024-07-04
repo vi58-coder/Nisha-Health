@@ -1,5 +1,5 @@
 .container{
-     @apply w-full h-[600px] bg-cover bg-center bg-no-repeat bg-hero;
+     @apply w-full h-screen flex items-center bg-cover bg-center bg-no-repeat bg-hero 2xl:w-full 2xl:h-screen 2xl:flex 2xl:items-center;
      
 }
 
